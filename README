@@ -1,0 +1,15 @@
+This script parses BLAST ouput. 
+Script is written to be ran from directory containing the fna database file and BLAST outpu. 
+
+Using '.fna' file, the parser creates a list of genomes that are possibly found in the output.
+
+Each BLAST output file (either in XML or table format) is parsed, searching for particular genome.
+If genome is found in that query at all, GENOME=1, otherwise GENOME=0. (not an actual count of genome hits) 
+Final ouput is number of GENOME/number of QUERIES. 
+
+Optional parameters:
+
+Identity= default 100
+E-Value= default 0.00
+Bit score= default 0.00
+Length = default 0
