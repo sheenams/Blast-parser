@@ -4,7 +4,7 @@ import os, sys, csv, re, gzip
 from os import path
 from collections import Counter
 
-from Parser import *
+from parser_args import *
 
 try: 
 	from Bio import SeqIO
