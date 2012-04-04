@@ -1,5 +1,5 @@
 This script parses BLAST ouput. 
-Script is written to be ran from directory containing the fna database file and BLAST outpu. 
+Script is written to be ran from directory containing the fna database file and BLAST output. 
 
 Using '.fna' file, the parser creates a list of genomes that are possibly found in the output.
 
